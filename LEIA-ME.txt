@@ -1,0 +1,25 @@
+# Performance Training — PWA
+
+## O que é
+Versão PWA do sistema de hipertrofia A/B/C/D.
+
+## Importante
+Um Service Worker/PWA não pode ser instalado corretamente abrindo `index.html` diretamente pelo aplicativo Arquivos (`file://`).
+O sistema precisa ser publicado em um endereço HTTPS.
+
+## No iPhone
+1. Abra o endereço HTTPS no Safari.
+2. Aguarde o sistema carregar.
+3. Toque em Compartilhar.
+4. Escolha **Adicionar à Tela de Início**.
+5. Toque em **Adicionar**.
+6. Abra pelo novo ícone "Performance Training".
+
+## Dados
+O sistema mantém os dados no armazenamento local do navegador. A PWA melhora a abertura e o funcionamento offline do app shell, mas isso não substitui um backup dos dados do usuário.
+
+## Arquivos
+- index.html — sistema
+- manifest.webmanifest — configuração PWA
+- sw.js — cache/offline
+- icons/ — ícones para iPhone e outros dispositivos
